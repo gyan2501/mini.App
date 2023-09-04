@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# Mini App - Contact Management and Dashboard App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Mini App**, a Contact Management and Dashboard Application. This app allows you to manage your contacts and visualize COVID-19 data through interactive charts and maps.
 
-## Available Scripts
+![Mini App Demo](demo-screenshot.png)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Live Demo](https://stately-cascaron-7968ed.netlify.app/)
+- [Getting Started](#getting-started)
+- [Dependencies](#dependencies)
+- [Technologies Used](#technologies-used)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Contact Management:**
+  - Add new contacts with details like full name, email, role, country, and mobile number.
+  - Edit existing contacts.
+  - Delete contacts from your list.
+  - View contact details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Interactive Dashboard:**
+  - Visualize COVID-19 data using Line Charts.
+ 
 
-### `npm run build`
+## Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can try the live demo of Mini App here: [Live Demo](https://stately-cascaron-7968ed.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run the app locally, follow these steps:
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   git clone https://github.com/gyan2501/mini.App
+2. Navigate to the project directory:
+    ```bash
+    cd mini.app
+3. Install dependencies:
+    ```bash
+    npm install
+4. Start the development server:
+    ```bash
+    npm start
+5. Open your browser and visit http://localhost:3000 to access the app.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dependencies
+**Mini App** uses the following **libraries** and **frameworks**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **React**: A JavaScript library for building user interfaces.
+- **Redux**: A predictable state container for managing application state.
+- **React Router**: A routing library for React applications.
+- **Chart.js**: A JavaScript library for creating interactive charts.
+- **Axios**: A promise-based HTTP client for making API requests.
+- **Tailwind CSS**: A utility-first CSS framework for building modern web applications.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
+- Language: **TypeScript**
+- Framework: **React**
+- State Management: **Redux**
+- Routing: **React Router**
+- Charting: **Chart.js, react-chartjs-2**
+- Styling: **Tailwind CSS**
+- HTTP Client: **Axios**
